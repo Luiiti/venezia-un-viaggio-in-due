@@ -1,6 +1,15 @@
 # Comprobación de la entrega
 
-Fecha: 26 octubre 2026. Proyecto independiente, preparado para GitHub Pages en `Luiiti/venezia-un-viaggio-in-due`.
+Fecha: 26 octubre 2026. Proyecto independiente publicado mediante GitHub Pages en [Luiiti/venezia-un-viaggio-in-due](https://github.com/Luiiti/venezia-un-viaggio-in-due).
+
+## Publicación comprobada
+
+- Web: https://luiiti.github.io/venezia-un-viaggio-in-due/ · HTTPS y despliegue de GitHub Pages completado correctamente.
+- Los 46 archivos del repositorio coinciden con los archivos locales revisados, comparando sus hashes de Git sin conversión de finales de línea.
+- En la web pública: cuatro resúmenes diarios, siete bloques de tiempo libre, fotografías cargadas y ausencia de desbordamiento horizontal en la vista comprobada.
+- «Volver al hotel» apunta al Hotel Riva | BZAR hotels y conserva su identificador único de Google Maps.
+- La sección Guardar confirma la copia preparada en el navegador del dominio público. El PDF, el service worker y el manifiesto responden con HTTP 200 y su tipo de contenido correcto.
+- Repositorio y ruta de publicación propios; no se han modificado los proyectos de las bodas.
 
 ## Pruebas realizadas
 
