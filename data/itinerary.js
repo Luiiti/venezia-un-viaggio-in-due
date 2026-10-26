@@ -4,14 +4,14 @@
    No hay reservas acreditadas en esta versión. */
 window.TRIP={title:'Venezia, un viaggio in due',start:'2026-11-08',end:'2026-11-11',timezone:'Europe/Rome',adults:2,hotel:'Hotel Riva'};
 window.DAYS=[
- {id:1,date:'2026-11-08',weekday:'Domingo',day:'08',title:'El primer encuentro',places:'Llegada · Rialto · Cannaregio',image:'rialto',alt:'Puente de Rialto sobre el Gran Canal de Venecia',intro:'El Gran Canal nos da la bienvenida. Después, las calles de Rialto y el silencio de Cannaregio al caer la noche.',note:'La mañana depende del vuelo y de la recogida de maletas. El tour de las 17:15 todavía no está reservado.',routeIds:['treviso-roma','roma-rialto','rialto-hotel','hotel-rialto','rialto-ghetto','ghetto-hotel'],events:[
+ {id:1,date:'2026-11-08',weekday:'Domingo',day:'08',title:'El primer encuentro',places:'Llegada · Salute · Punta della Dogana · Zattere',image:'hero',alt:'Santa Maria della Salute y el Gran Canal de Venecia',intro:'El Gran Canal nos da la bienvenida. Después, las cúpulas de la Salute, la laguna desde Punta della Dogana y la última luz en las Zattere.',note:'La mañana depende del vuelo y del equipaje. Salir hacia Dorsoduro a las 15:15 para aprovechar la luz; puesta de sol de referencia hacia las 16:48. Paseo por libre, sin reserva.',routeIds:['treviso-roma','roma-rialto','rialto-hotel','hotel-salute','salute-zattere','zattere-hotel'],events:[
   {time:'09:55',start:595,end:645,title:'Benvenuti a Venezia',kind:'plane',status:'planned',text:'Aterrizaje en Treviso Antonio Canova (TSF). Recoger el equipaje y salir de la terminal.',details:['Horario de vuelo facilitado por los viajeros; comprobarlo con la aerolínea.','Seguir la señalización ATVO hacia via le Canevare. Desde llegadas, salir y utilizar el paso peatonal elevado; hay ascensor y escaleras.'],sources:['atvo']},
   {time:'10:45–11:20',start:645,end:680,title:'En autobús hacia la laguna',kind:'bus',status:'planned',text:'Llegar a la parada con las maletas y tomar el próximo ATVO 351 hacia Venezia · Piazzale Roma.',transport:{company:'ATVO',line:'351',from:'Treviso · via le Canevare',direction:'Venezia · Piazzale Roma',off:'Piazzale Roma',duration:'40 min aprox. + espera',reference:'Referencias publicadas: 11:00 → 11:40 o 11:20 → 12:00. Revalidar el 8/11.'},details:['La franja 10:45–11:20 es para llegar y embarcar; la llegada a Venecia depende del autobús elegido.','Comprobar el destino antes de subir y las condiciones de equipaje del billete.'],routes:['treviso-roma'],sources:['atvo','atvopdf']},
   {time:'11:40–12:20',start:700,end:740,title:'Nuestro primer Gran Canal',kind:'boat',status:'planned',text:'Desde Piazzale Roma, embarcar en ACTV 1 y disfrutar de la llegada a Venecia desde el agua.',transport:{company:'ACTV',line:'1',from:'Piazzale Roma · F (referencia)',direction:'San Marco / Lido S.M.E.',off:'Rialto · no Rialto Mercato',duration:'20–30 min + espera',reference:'Franja orientativa; si el bus llega a las 12:00, el vaporetto y el hotel se desplazan unos minutos.'},details:['El documento inicial indicaba D. La referencia del horario oficial para la línea 1 es F: comprobar el panel del embarcadero.','Validar el título de transporte antes de subir. Llevar las maletas sin bloquear el paso.'],routes:['roma-rialto'],sources:['actv1','actv']},
   {time:'12:30–13:30',start:750,end:810,title:'Dejar las maletas, bajar el ritmo',kind:'hotel',status:'planned',text:`${PLACES.hotel.name} · ${PLACES.hotel.address}, ${PLACES.hotel.locality}. Desde Rialto: unos 6–10 minutos a pie, según el recorrido y las maletas.`,details:['Check-in virtual: hipótesis, no confirmado. No asumir que se puede entrar directamente.','Confirmar instrucciones de acceso, habitación antes de las 15:00 y consigna de equipaje.','Si no hay acceso temprano, acordar antes una solución para dejar las maletas.'],routes:['rialto-hotel']},
-  {time:'13:30–16:30',start:810,end:990,title:'Una mesa, un paseo y tiempo',kind:'food',status:'planned',text:'Comida y descanso, sin restaurante reservado. Un pequeño paseo por las calles cercanas al hotel, sin más visitas obligatorias.'},
-  {time:'17:15–19:15',start:1035,end:1155,title:'Rialto y el barrio judío',kind:'walk',status:'pending',text:'Tour de 2 horas en español por el entorno de Rialto, las zonas históricas de Cannaregio y el antiguo gueto judío.',image:'ghetto',details:['Horario propuesto por disponibilidad; pendiente de reserva.','Punto de encuentro pendiente: se añadirá al recibir la confirmación. La ruta a Rialto solo lleva a la zona.','Será un paseo nocturno: en noviembre cae la luz antes de las 17:00. Prever abrigo y calzado cómodo.','Las rutas Rialto–Ghetto son de orientación; el guía decidirá el recorrido.'],routes:['hotel-rialto','rialto-ghetto']},
-  {time:'20:00',start:1200,end:1320,title:'La ciudad, de noche',kind:'food',status:'planned',text:'Cena y paseo nocturno libre. Sin otras visitas programadas y sin restaurante reservado.',routes:['ghetto-hotel']}
+  {time:'13:30–15:15',start:810,end:915,title:'Una mesa y un respiro',kind:'food',status:'planned',text:'Comida y descanso cerca del Hotel Riva, sin restaurante reservado. Preparar una tarde de paseo antes de que se vaya la luz.'},
+  {time:'15:15–17:15',start:915,end:1035,title:'Dorsoduro y la última luz',kind:'walk',status:'planned',text:'Paseo por libre: fachada de Santa Maria della Salute, panorámica desde Punta della Dogana y paseo junto al agua por las Zattere. Dos horas aproximadas con paradas para fotos.',image:'hero',details:['15:15: salir del Hotel Riva. Caminar por Campo Santo Stefano y cruzar el puente de la Accademia hacia la Salute; unos 30–40 minutos sin paradas.','15:55–16:20: contemplar la basílica por fuera y acercarse a Punta della Dogana para ver el Bacino San Marco.','16:20–17:15: seguir las Zattere hacia los Gesuati, con vistas a la Giudecca. Puesta de sol de referencia: 16:48; la visibilidad depende del tiempo.','Recorrido exterior gratuito, sin guía ni entradas a la basílica o al museo. Si la llegada se retrasa o llueve, acortarlo a Salute y Punta della Dogana.'],routes:['hotel-salute','salute-zattere'],sources:['dorsoduro','sunset']},
+  {time:'Desde 17:15',start:1035,end:1320,title:'Un aperitivo y la ciudad de noche',kind:'food',status:'planned',text:'Aperitivo, cena y noche libres. Quedarnos por Dorsoduro o volver al Hotel Riva para descansar; sin restaurante reservado.',routes:['zattere-hotel']}
  ]},
  {id:2,date:'2026-11-09',weekday:'Lunes',day:'09',title:'Piedra, agua y última luz',places:'San Marcos · Accademia · Góndola',image:'sanmarco',alt:'Detalle de la fachada de la basílica de San Marcos, con el león dorado',intro:'La Venecia monumental por la mañana. Por la tarde, una panorámica inolvidable y media hora para dejarnos llevar.',note:'Los dos momentos con reserva —tour y góndola— siguen pendientes. Solicitar un recorrido por canales pequeños antes de pagar.',routeIds:['hotel-sanmarco','sanmarco-ducale','ducale-sospiri','sanmarco-accademia','accademia-gondola','gondola-hotel'],events:[
   {time:'09:00',start:540,end:600,title:'Desayuno sin prisas',kind:'food',status:'planned',text:'Una mañana tranquila antes de encontrarnos con San Marcos.'},
@@ -49,12 +49,12 @@ window.DAYS=[
 /* Resumen del inicio. Las horas se leen del evento para mantenerlas sincronizadas.
    event es la posición de la actividad dentro de events (empezando por cero). */
 window.DAY_OVERVIEWS=[
- {dayId:1,title:'Llegada, Rialto y barrio judío',items:[
+ {dayId:1,title:'Llegada, Salute y Zattere',items:[
   {event:0,label:'Llegada a Treviso'},
   {event:2,label:'Primer paseo por el Gran Canal en vaporetto'},
   {event:4,label:'Comida y descanso, sin prisas',free:true},
-  {event:5,label:'Tour de Rialto, Cannaregio y barrio judío'},
-  {event:6,label:'Cena y paseo nocturno a nuestro ritmo',free:true}
+  {event:5,label:'Salute, Punta della Dogana y Zattere por libre'},
+  {event:6,label:'Aperitivo, cena y noche a nuestro ritmo',free:true}
  ]},
  {dayId:2,title:'San Marcos, Accademia y góndola',items:[
   {event:2,label:'Basílica de San Marcos y Palacio Ducal'},
@@ -82,11 +82,11 @@ window.DAY_OVERVIEWS=[
 window.CHECKLIST=[
  'Confirmar check-in, acceso y consigna del Hotel Riva',
  'Comprar el traslado ATVO desde Treviso',
- 'Reservar el tour Rialto y barrio judío en español',
+ 'Revisar el tiempo y salir a las 15:15 hacia Dorsoduro',
  'Reservar Basílica y Palacio Ducal con entradas y guía en español',
  'Confirmar recorrido, hora y precio de la góndola privada',
  'Revisar horarios de invierno ACTV para Burano, ida y vuelta',
  'Preparar Alilaguna a Marco Polo y revalidar salida de las 12:01',
  'Revisar documentación, equipaje, billetes y batería'
 ];
-window.BUDGET_DEFAULTS={transport:121,rialto:36,sanmarco:170,gondola:90,food:473,other:60};
+window.BUDGET_DEFAULTS={transport:121,sanmarco:170,gondola:90,food:473,other:60};

@@ -21,11 +21,11 @@ Fecha: 26 octubre 2026. Proyecto independiente publicado mediante GitHub Pages e
 - Navegación de portada a índice y jornadas; selectores; expansión de instrucciones; consulta rápida; filtros de mapa; lista de puntos; compartir desde una vista local con explicación real.
 - Las 21 URL de rutas usan el formato oficial de Google Maps. Comprobados origen, destino, codificación, modo y puntos intermedios. «Volver al hotel» omite el origen para que Maps utilice la posición disponible.
 - Hotel: identificador de Google Maps `ChIJqVHbStixfkcRvkWxpL81in8` y punto 45.4359774, 12.3400347 contrastados con el mapa incrustado en la web oficial del Hotel Riva | BZAR hotels, C. va al Ponte de l’Anzolo, 5310, 30122 Venezia VE, Italy. Se utiliza en la ficha, el botón permanente y todas las rutas desde o hacia el hotel.
-- Presupuesto inicial: 950 €. Cambio de Rialto a 50 € y góndola a 100 €: total 974 €. Persistencia tras recarga y restauración de valores iniciales verificadas.
+- Presupuesto inicial tras sustituir el tour del barrio judío por Dorsoduro: 914 €. Migración comprobada con un presupuesto anterior: se elimina la antigua partida del tour y se conservan San Marcos a 180 € y góndola a 100 €, con total 934 €. La impresión refleja el mismo total.
 - Casillas de preparativos: persistencia comprobada tras recargar.
 - «Mi día» comprobado antes, durante y después del viaje; también al cambiar de día en Venecia mientras todavía es el día anterior en UTC.
 - Cuatro jornadas validadas por fecha, orden cronológico y ausencia de solapamientos numéricos. Los desplazamientos condicionados por el servicio se identifican como referencias flexibles.
-- Sin reservas confirmadas sin evidencia. Tours y góndola pendientes.
+- Sin reservas confirmadas sin evidencia. Tour de San Marcos y góndola pendientes. El paseo exterior por Dorsoduro es gratuito y no requiere reserva.
 - Service worker: recarga y navegación sin conexión verificadas; fotografías, datos y fuentes tipográficas locales. Al quedar sin conexión, el mapa ofrece la lista y explica el límite.
 - Mapa Leaflet con marcadores y filtros por día comprobado. Animaciones del mapa desactivadas para evitar errores al cambiar rápidamente de pantalla.
 - PDF de 14 páginas renderizado a imágenes e inspeccionado. Enlaces activos, fuentes incrustadas, páginas numeradas, programa e instrucciones separados por jornada. Sin páginas vacías ni cortes de tablas.

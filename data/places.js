@@ -6,7 +6,9 @@ window.PLACES = {
  roma:{name:'Piazzale Roma',query:'Piazzale Roma ACTV Venezia Italia',lat:45.4377,lng:12.3184,days:[1]},
  rialtoactv:{name:'Rialto · ACTV',query:'Rialto ACTV Riva del Carbon Venezia Italia',lat:45.4370,lng:12.3351,days:[1]},
  rialto:{name:'Puente de Rialto',query:'Ponte di Rialto Venezia Italia',lat:45.4380,lng:12.3359,days:[1]},
- ghetto:{name:'Campo del Ghetto Nuovo',query:'Campo del Ghetto Nuovo Venezia Italia',lat:45.4451,lng:12.3273,days:[1]},
+ salute:{name:'Santa Maria della Salute · exterior',query:'Basilica di Santa Maria della Salute Dorsoduro Venezia Italia',lat:45.4308,lng:12.3340,days:[1],note:'Visita exterior. No se programan entradas a la basílica.'},
+ dogana:{name:'Punta della Dogana · panorámica',query:'Punta della Dogana Venezia Italia',lat:45.4309,lng:12.3365,days:[1],note:'Mirador exterior sobre el Bacino San Marco; no se programa entrada al museo.'},
+ zattere:{name:'Zattere · Gesuati',query:'Fondamenta Zattere ai Gesuati Venezia Italia',lat:45.4299,lng:12.3270,days:[1],note:'Paseo junto al Canale della Giudecca. Marcador orientativo.'},
  sanmarco:{name:'Plaza de San Marcos',query:'Piazza San Marco Venezia Italia',lat:45.4341,lng:12.3388,days:[2]},
  basilica:{name:'Basílica de San Marcos',query:'Basilica di San Marco Venezia Italia',lat:45.4346,lng:12.3397,days:[2]},
  ducale:{name:'Palacio Ducal',query:'Palazzo Ducale Venezia Italia',lat:45.4337,lng:12.3404,days:[2]},
@@ -25,9 +27,9 @@ window.ROUTES = {
  'treviso-roma':{from:'treviso',to:'roma',mode:'transit',label:'Treviso → Piazzale Roma'},
  'roma-rialto':{from:'roma',to:'rialtoactv',mode:'transit',label:'Piazzale Roma → Rialto · ACTV 1'},
  'rialto-hotel':{from:'rialtoactv',to:'hotel',label:'Rialto ACTV → Hotel Riva'},
- 'hotel-rialto':{from:'hotel',to:'rialto',label:'Hotel Riva → zona de Rialto'},
- 'rialto-ghetto':{from:'rialto',to:'ghetto',label:'Rialto → barrio judío'},
- 'ghetto-hotel':{from:'ghetto',to:'hotel',label:'Barrio judío → Hotel Riva'},
+ 'hotel-salute':{from:'hotel',to:'salute',via:['Campo Santo Stefano Venezia Italia','Ponte dell Accademia Venezia Italia'],label:'Hotel Riva → Santa Maria della Salute'},
+ 'salute-zattere':{from:'salute',to:'zattere',via:['Punta della Dogana Venezia Italia'],label:'Salute → Punta della Dogana → Zattere'},
+ 'zattere-hotel':{from:'zattere',to:'hotel',via:['Ponte dell Accademia Venezia Italia'],label:'Zattere → Hotel Riva'},
  'hotel-sanmarco':{from:'hotel',to:'sanmarco',label:'Hotel Riva → San Marcos'},
  'sanmarco-ducale':{from:'sanmarco',to:'ducale',label:'San Marcos → Palacio Ducal'},
  'ducale-sospiri':{from:'ducale',to:'sospiri',label:'Palacio Ducal → Ponte della Paglia'},
@@ -46,8 +48,8 @@ window.ROUTES = {
 };
 /* Tiempos a pie estimados, sin paradas. Puentes, maletas y afluencia los amplían. */
 for(const [id,duration] of Object.entries({
- 'rialto-hotel':'6–10 min', 'hotel-rialto':'7–10 min', 'rialto-ghetto':'20–25 min',
- 'ghetto-hotel':'25–35 min', 'hotel-sanmarco':'5–10 min', 'sanmarco-ducale':'2–5 min',
+ 'rialto-hotel':'6–10 min', 'hotel-salute':'30–40 min', 'salute-zattere':'20–30 min sin paradas',
+ 'zattere-hotel':'30–40 min', 'hotel-sanmarco':'5–10 min', 'sanmarco-ducale':'2–5 min',
  'ducale-sospiri':'2–5 min', 'sanmarco-accademia':'15–20 min', 'accademia-gondola':'15–25 min',
  'gondola-hotel':'20–30 min', 'hotel-nove':'15–20 min', 'burano-walk':'20–30 min sin paradas',
  'nove-hotel':'15–20 min', 'hotel-acqua':'5–10 min', 'acqua-hotel':'5–10 min', 'hotel-alilaguna':'6–10 min'

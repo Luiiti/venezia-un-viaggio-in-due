@@ -84,7 +84,8 @@ En el móvil, vuelve a abrir la guía con conexión después de un cambio y reca
 ## Datos que requieren confirmación
 
 - Hotel: acceso exacto, check-in virtual, entrada temprana y consigna.
-- Los dos tours en español: precio, entradas incluidas, punto de encuentro y reserva.
+- Tour de San Marcos en español: precio, entradas incluidas, punto de encuentro y reserva.
+- Día 8: paseo exterior por Dorsoduro, Salute, Punta della Dogana y Zattere, de 15:15 a 17:15 aproximadamente. Sin guía ni entradas; revisar el tiempo. Sustituye al tour del barrio judío y reduce la estimación inicial a 914 € para dos.
 - Góndola privada: disponibilidad de las 16:00, recorrido por canales estrechos y precio.
 - ATVO: salidas 11:00 o 11:20 consultadas, sujetas a cambios de vuelos y servicio.
 - ACTV 1: se corrige Piazzale Roma **D → F** como referencia; seguir paneles.
