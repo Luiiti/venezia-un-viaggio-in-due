@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#183f3b">
+ <meta name="description" content="Venezia, un viaggio in due. Nuestra guía personal del 8 al 11 de noviembre de 2026: cuatro días para descubrir Venecia sin prisas.">
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <meta property="og:title" content="Venezia · Un viaggio in due">
+ <meta property="og:description" content="8–11 noviembre 2026. Cuatro días para descubrir Venecia sin prisas.">
+ <meta property="og:type" content="website">
+ <meta name="color-scheme" content="light">
+ <title>Venezia · Un viaggio in due</title>
+ <link rel="manifest" href="manifest.webmanifest">
+ <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+ <link rel="apple-touch-icon" href="assets/icon-180.png">
+ <link rel="preload" as="image" href="assets/hero.webp">
+ <link rel="preload" as="font" href="assets/vendor/cormorant.woff2" type="font/woff2" crossorigin>
+ <link rel="stylesheet" href="assets/vendor/leaflet.css">
+ <link rel="stylesheet" href="styles.css">
+ <script>
+ // Aplicar una versión nueva de la guía al actualizar su copia sin conexión.
+ if ('serviceWorker' in navigator) {
+  const controlledAtOpen = !!navigator.serviceWorker.controller;
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+   if (controlledAtOpen && !refreshing) { refreshing = true; location.reload(); }
+  });
+ }
+ </script>
+ <script defer src="data/places.js"></script>
+ <script defer src="data/sources.js"></script>
+ <script defer src="data/itinerary.js"></script>
+ <script defer src="assets/photo-credits.js"></script>
+ <script defer src="assets/vendor/leaflet.js"></script>
+ <script defer src="app.js"></script>
+</head>
+<body>
+ <a class="skip" href="#main">Saltar al contenido</a>
+ <header id="topbar" class="topbar"><a class="wordmark" href="#inicio" aria-label="Venezia · Inicio">VENEZIA<span>UN VIAGGIO IN DUE</span></a><span class="edition">DIARIO DE VIAJE / NOV. 2026</span><button class="icon-button" data-action="share" aria-label="Compartir la guía"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 16V3m-4 4 4-4 4 4M5 12v8h14v-8"/></svg></button></header>
+ <main id="main" tabindex="-1"></main>
+ <a id="hotel-link" class="hotel-float" href="#" target="_blank" rel="noopener"><span aria-hidden="true">↗</span> Volver al hotel</a>
+ <nav id="bottom-nav" class="bottom-nav" aria-label="Navegación principal"></nav>
+ <div id="toast" class="toast" role="status" aria-live="polite"></div>
+ <dialog id="dialog"><button class="dialog-close icon-button" data-action="close-dialog" aria-label="Cerrar">×</button><div id="dialog-body"></div></dialog>
+ <noscript><div class="noscript">Activa JavaScript para utilizar la guía interactiva. También puedes consultar <a href="Venezia-guia.pdf">la guía PDF</a>.</div></noscript>
+</body>
+</html>

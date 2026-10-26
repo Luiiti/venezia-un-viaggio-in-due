@@ -1,0 +1,7 @@
+{
+ "id":"./", "name":"Venezia, un viaggio in due", "short_name":"Venezia",
+ "description":"Nuestra guía personal de Venecia · 8–11 noviembre 2026",
+ "lang":"es", "start_url":"./#inicio", "scope":"./", "display":"standalone",
+ "background_color":"#f5f2ea", "theme_color":"#183f3b",
+ "icons":[{"src":"assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
+}

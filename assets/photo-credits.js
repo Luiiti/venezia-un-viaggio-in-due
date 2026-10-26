@@ -1,0 +1,122 @@
+window.PHOTO_CREDITS=[
+  {
+    "id": "hero",
+    "file": "assets/hero.webp",
+    "title": "Canal Grande Chiesa della Salute e Dogana dal ponte dell Accademia.jpg",
+    "author": "Wolfgang Moroder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1600,
+    "height": 1076
+  },
+  {
+    "id": "rialto",
+    "file": "assets/rialto.webp",
+    "title": "Panorama of Canal Grande and Ponte di Rialto, Venice - September 2017.jpg",
+    "author": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Canal_Grande_and_Ponte_di_Rialto,_Venice_-_September_2017.jpg",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1600,
+    "height": 711
+  },
+  {
+    "id": "sanmarco",
+    "file": "assets/sanmarco.webp",
+    "title": "San Marco cathedral in Venice.JPG",
+    "author": "Petar Milosevic",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Marco_cathedral_in_Venice.JPG",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1206,
+    "height": 1600
+  },
+  {
+    "id": "ducale",
+    "file": "assets/ducale.webp",
+    "title": "Palazzo-Ducale-Venezia-Detail.jpg",
+    "author": "Matthias v.d. Elbe",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Palazzo-Ducale-Venezia-Detail.jpg",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "id": "sospiri",
+    "file": "assets/sospiri.webp",
+    "title": "Ponte-dei-Sospiri-Venice-20050524-045.jpg",
+    "author": "Gary Houston",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Ponte-dei-Sospiri-Venice-20050524-045.jpg",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1280,
+    "height": 847
+  },
+  {
+    "id": "gondola",
+    "file": "assets/gondola.webp",
+    "title": "Venice Gondola in narrow canal.jpg",
+    "author": "Yourusernamewillbepublic2",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Venice_Gondola_in_narrow_canal.jpg",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1125,
+    "height": 1500
+  },
+  {
+    "id": "accademia",
+    "file": "assets/accademia.webp",
+    "title": "Accademia bridge in Venice (South East exposure).jpg",
+    "author": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Accademia_bridge_in_Venice_(South_East_exposure).jpg",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1600,
+    "height": 1068
+  },
+  {
+    "id": "ghetto",
+    "file": "assets/ghetto.webp",
+    "title": "Campo del Ghetto Nuovo R02.jpg",
+    "author": "Marc Ryckaert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Campo_del_Ghetto_Nuovo_R02.jpg",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1600,
+    "height": 1131
+  },
+  {
+    "id": "burano",
+    "file": "assets/burano.webp",
+    "title": "Canal in Burano.JPG",
+    "author": "Ethan Doyle White",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Canal_in_Burano.JPG",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1600,
+    "height": 1189
+  },
+  {
+    "id": "acquaalta",
+    "file": "assets/acquaalta.webp",
+    "title": "Heaps of books (Unsplash).jpg",
+    "author": "Cristina Gottardi cristina_gottardi",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Heaps_of_books_(Unsplash).jpg",
+    "changes": "Redimensionada y comprimida a WebP; recorte de presentación con CSS.",
+    "width": 1600,
+    "height": 1053
+  }
+];
